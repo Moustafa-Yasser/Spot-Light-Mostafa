@@ -48,14 +48,13 @@ margin: 50px 0px;
 .filter ul {
 display: flex;
 flex-direction: column;
-gap: 30px;
+gap: 20px;
 direction: rtl;
 
 }
 .filter ul li {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 .filter ul li:last-child {
   flex-direction: row;
@@ -80,7 +79,7 @@ direction: rtl;
     max-width: 80vw;
   }
 }
-/* input[type="number"] {
+input[type="number"] {
   width: 40px;
   outline: none;
   border: none;
@@ -89,4 +88,5 @@ direction: rtl;
   background-color: #333;
   color: #fff;
   font-weight: bolder;
-} */
+  align-self: end;
+}
